@@ -1,0 +1,92 @@
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* ------------------------
+ * HEADER STYLING
+ * ------------------------ */
+header {
+  background-color: #333; /* Dark grey background */
+  color: white; /* White text */
+  display: flex; /* Flexbox for horizontal alignment */
+  justify-content: space-between; /* Space between site title and navigation */
+  align-items: center; /* Center items vertically */
+  padding: 10px 20px; /* Padding for spacing */
+}
+
+.site-title {
+  font-size: 1.5em; /* Larger font size for site title */
+}
+
+nav ul {
+  list-style: none; /* Remove default list styling */
+  display: flex; /* Flexbox for horizontal navigation */
+  gap: 20px; /* Space between navigation items */
+}
+
+nav ul li {
+  position: relative; /* Position for hover effect */
+}
+
+nav ul li a {
+  color: white; /* White text for navigation links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+nav ul li:hover::after {
+  content: ''; /* Empty content for border */
+  position: absolute; /* Position at bottom */
+  left: 0;
+  right: 0;
+  bottom: -5px; /* Position below the text */
+  height: 2px; /* Border height */
+  background-color: white; /* Border color */
+}
+
+/* ------------------------
+ * Footer STYLING
+ * ------------------------ */
+footer{
+    border-top: 3px solid #333333;
+    margin-top:2rem;
+    padding-top: 1rem;
+}
+
+/*Simpler Header Styling*/
+
+/*
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav li {
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding-bottom: 4px;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #333;
+}
+*/

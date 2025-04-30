@@ -54,6 +54,29 @@ footer{
     padding-top: 1rem;
 }
 
+/*Main Content area layout*/
+main{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+figure{
+  text-align: center;
+}
+
+/*Text Styling ===========================*/
+html{
+  font-size: 18px;
+  font-family:
+}
+p{
+  
+}
+h1{
+  
+}
+
+
 /*Simpler Header Styling*/
 
 /*
